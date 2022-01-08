@@ -5,7 +5,7 @@ fun main(){
         if (i % 3 == 0 || i % 5 == 0){
             sum += i
         }
-        i += 1
+        i = i + 1
 
     }
     println(sum)
