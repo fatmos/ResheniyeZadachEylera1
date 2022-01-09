@@ -34,6 +34,6 @@ fun main( ) {
         }
 
     }
-    var z = list.sorted()
+    var z = list.sorted().reversed()
     print(z[0])
 }
